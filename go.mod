@@ -1,4 +1,4 @@
-module git.forchange.cn/base/zipkin
+module github.com/aluka-7/zipkin
 
 go 1.16
 
