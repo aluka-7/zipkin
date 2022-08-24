@@ -23,7 +23,7 @@ type Config struct {
 }
 
 func Init(systemId string, conf configuration.Configuration, tag []trace.Tag) {
-	fmt.Println("Loading FoChange Zipkin Engine ver:1.0.1")
+	fmt.Println("Loading Zipkin Engine")
 	var c Config
 	if err := conf.Clazz("base", "common", "", "zipkin", &c); err == nil {
 		if c.BatchSize == 0 {
